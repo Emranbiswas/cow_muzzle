@@ -16,9 +16,7 @@ def get_class_names(dataset_dir):
     return class_names
 
 # Get class names
-class_names = 
-
-['cattle_5009',
+class_names = (['cattle_5009',
  'cattle_5026',
  'cattle_5028',
  'cattle_5066',
@@ -152,7 +150,7 @@ class_names =
  'cattle_6295',
  'cattle_6313',
  'cattle_6331',
- 'cattle_6333']
+ 'cattle_6333'])
 
 # Load the trained model
 model = load_model('muzzle_model.h5')  # Path to your model file
